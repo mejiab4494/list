@@ -1,0 +1,81 @@
+body {
+ display: block;
+ text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+input {
+  font-size: 30px;
+  width: 441px;
+  height: 94px;
+  background-color: rgba(238, 238, 238, 1);
+  border-radius: 10px;
+  border: none;
+}
+
+#enter {
+  font-size: 30px;
+  width: 87px;
+  height: 94px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 204, 104, 1);
+}
+
+#delete {
+  font-size: 30px;
+  width: 87px;
+  height: 94px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 149, 72, 1);
+}
+
+.chore-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+.delete-chore-btn {
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.chore-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chore-item {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 638px;
+  height: 92px;
+  background-color: rgba(251, 223, 124, 1);
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+.checkbox {
+  width: 50px;
+}
+
+input[type="checkbox"] {
+  transform: scale(0.3); /* Adjust size (0.5 = 50%, 1 = default) */
+}
